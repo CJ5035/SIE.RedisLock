@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>SIE.RedisLock</id>
+    <version>9.1.0</version>
+    <authors>SIE Foundation</authors>
+    <icon>logo.png</icon>
+    <projectUrl>http://192.168.175.208:8069/snest-version</projectUrl>
+    <description>SIE Redis锁模块</description>
+    <copyright>Copyright © 2022 广州赛意信息科技股份有限公司</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="SIE.Caches" version="9.1.49" exclude="Build,Analyzers" />
+        <dependency id="SIE.LogData" version="9.1.49" exclude="Build,Analyzers" />        
+        <dependency id="SIE.Log" version="9.1.49" exclude="Build,Analyzers" />
+        <dependency id="NEST" version="7.13.2" exclude="Build,Analyzers" />
+        <dependency id="log4net" version="2.0.12" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

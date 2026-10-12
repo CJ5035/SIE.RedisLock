@@ -1,0 +1,18 @@
+# Visual Studio 缓存
+.vs/
+
+# 编译产物
+bin/
+obj/
+
+# NuGet 包产物
+*.nupkg
+
+# 本地备份副本
+* - 副本*
+
+# 平台 DLL 大目录（不入库，编译依赖已收纳到 libs/）
+platform/
+
+# 实施文档（本地工作文档，不入库）
+doc/
